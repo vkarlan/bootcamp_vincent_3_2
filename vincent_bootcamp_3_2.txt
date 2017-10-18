@@ -1,0 +1,26 @@
+kamar
+=====
+id[pk]
+available
+description
+price
+customer_id [FK]
+
+customer
+========
+id [pk]
+room_no[fk]
+name
+phone
+check-in
+check-out
+
+transaksi
+=========
+id [pk]
+room_id[fk]
+customer_id[fk]
+check_in_date
+check_out_date
+payment
+status
